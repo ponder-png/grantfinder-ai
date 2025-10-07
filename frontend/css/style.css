@@ -1,0 +1,117 @@
+/* ==========================
+   GrantFinder AI - Custom Styles
+   ========================== */
+
+/* Body / Typography */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8fafc; /* light gray background */
+  color: #1e293b; /* slate-800 text */
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: #0f172a; /* darker slate for headings */
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+/* Inputs / Textareas */
+input[type="text"], input[type="email"], textarea {
+  border: 1px solid #cbd5e1; /* slate-300 */
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.95rem;
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+  border-color: #4f46e5; /* indigo-600 */
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+/* Cards / Panels */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0; /* slate-200 */
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Tables / Spreadsheet-like Lists */
+.table-container {
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+table th, table td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+table th {
+  background-color: #f1f5f9;
+  font-weight: 600;
+}
+
+/* Draft Preformatted Text */
+pre {
+  background-color: #f1f5f9;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  font-size: 0.85rem;
+  overflow-x: auto;
+}
+
+/* Links */
+a {
+  color: #4f46e5; /* indigo-600 */
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Alerts / Info messages */
+.alert {
+  background-color: #fef3c7; /* amber-100 */
+  border-left: 4px solid #f59e0b; /* amber-500 */
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  font-size: 0.85rem;
+  color: #64748b; /* slate-400 */
+  text-align: center;
+  padding: 1.5rem 0;
+}
