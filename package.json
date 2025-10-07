@@ -1,0 +1,34 @@
+{
+  "name": "grantfinder-ai",
+  "version": "1.0.0",
+  "description": "GrantFinder AI - discover grants/RFPs, save to Google Sheets, generate drafts via OpenAI, and email results.",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": [
+    "grant",
+    "RFP",
+    "OpenAI",
+    "Google Sheets",
+    "Gmail",
+    "AI",
+    "automation"
+  ],
+  "author": "Erica Ponder",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "googleapis": "^118.0.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
